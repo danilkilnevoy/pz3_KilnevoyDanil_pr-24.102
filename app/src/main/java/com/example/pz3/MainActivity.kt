@@ -16,6 +16,7 @@ import com.example.pz3.ui.theme.Pz3Theme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        println("Testing Git")
         enableEdgeToEdge()
         setContent {
             Pz3Theme {
