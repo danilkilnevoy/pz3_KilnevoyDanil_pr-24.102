@@ -45,4 +45,8 @@ fun GreetingPreview() {
     Pz3Theme {
         Greeting("Android")
     }
+    fun myNewMethod() {
+        val a = 5
+        val b = 10
+    }
 }
